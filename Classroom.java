@@ -16,22 +16,26 @@ public class Classroom{
         Wilder wilder14 = new Wilder("Théo", false);
         Wilder wilder15 = new Wilder("Pilou", true);
 
+        Wilder[] wilders = {wilder1,wilder2,wilder3,wilder4,wilder5,wilder6,wilder7,wilder8,wilder9,wilder10,wilder11,wilder12,wilder13,wilder14,wilder15};
 
+        for(int i=0; i < wilders.length; i++){
+            System.out.println(wilders[i].whoAmI());
+        }
 
-        System.out.println(wilder1.whoAmI()); 
-        System.out.println(wilder2.whoAmI()); 
-        System.out.println(wilder3.whoAmI());
-        System.out.println(wilder4.whoAmI());
-        System.out.println(wilder5.whoAmI());
-        System.out.println(wilder6.whoAmI());
-        System.out.println(wilder7.whoAmI());
-        System.out.println(wilder8.whoAmI());
-        System.out.println(wilder9.whoAmI());
-        System.out.println(wilder10.whoAmI());
-        System.out.println(wilder11.whoAmI());
-        System.out.println(wilder12.whoAmI());
-        System.out.println(wilder13.whoAmI());
-        System.out.println(wilder14.whoAmI());
-        System.out.println(wilder15.whoAmI());
+        // System.out.println(wilder1.whoAmI()); 
+        // System.out.println(wilder2.whoAmI()); 
+        // System.out.println(wilder3.whoAmI());
+        // System.out.println(wilder4.whoAmI());
+        // System.out.println(wilder5.whoAmI());
+        // System.out.println(wilder6.whoAmI());
+        // System.out.println(wilder7.whoAmI());
+        // System.out.println(wilder8.whoAmI());
+        // System.out.println(wilder9.whoAmI());
+        // System.out.println(wilder10.whoAmI());
+        // System.out.println(wilder11.whoAmI());
+        // System.out.println(wilder12.whoAmI());
+        // System.out.println(wilder13.whoAmI());
+        // System.out.println(wilder14.whoAmI());
+        // System.out.println(wilder15.whoAmI());
     }
 }
